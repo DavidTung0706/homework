@@ -13,6 +13,8 @@ fun main() {
             var roundtrip = scanner.nextInt()
             var tm = TotalMoney(totalTicket, roundtrip)
             tm.print()
+        }else {
+                System.out.println("結束訂票")
         }
     }
 }
