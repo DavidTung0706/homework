@@ -15,10 +15,8 @@ public class Tester {
                 System.out.print("How many round-trip tickets:");
                 int roundtrip = scanner.nextInt();
                 ticket.sun(totalTicker, roundtrip);
-            } else {
-                System.out.println("結束訂票");
             }
-
         }
+        System.out.println("結束訂票");
     }
 }
